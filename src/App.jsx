@@ -5,6 +5,7 @@ import Menu from './components/Menu';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+
 import './App.css';
 
 export default function App() {
@@ -22,7 +23,7 @@ export default function App() {
       <About />
       <Testimonials />
       <Footer />
-      <Analytics/>
+     
     </div>
   );
 }
